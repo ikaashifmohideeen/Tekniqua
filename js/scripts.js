@@ -1,7 +1,7 @@
 function initDomik() {
     "use strict";
     $("body").append('<div class="l-line"><span></span></div>');
-    $(".loader").fadeOut(500, function() {
+    $(".loading").fadeOut(500, function() {
         $("#main").animate({
             opacity: "1"
         }, 500);
