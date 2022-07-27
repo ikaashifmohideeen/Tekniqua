@@ -7,7 +7,13 @@ function initDomik() {
         }, 500);
         contanimshow();
     });
-	// center content ------------------
+    // $(".loading").fadeOut(500, function() {
+    //     $("#main").animate({
+    //         opacity: "1"
+    //     }, 500);
+    //     contanimshow();
+    // });
+	// // center content ------------------
     function a() {
         $(" .fullheight-carousel .item").css({
             height: $(".fullheight-carousel").outerHeight(true)
